@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bg-main-1 {
+  background-color: #3b4664;
+}
+
+.bg-content-var-a-1 {
+  background-color: #262c43;
+}
+
+.bg-content-var-b-1 {
+  background-color: #fa6b5f;
+}

@@ -122,7 +122,7 @@ const CalculatorPage = () => {
         </div>
         {/* Calculator Screen */}
         <div className={cn("h-32 w-full mt-6 p-8 rounded-lg", `bg-content-var-a-${toggleTheme}`)}>
-          <p className={cn("font-bold text-6xl text-right", `font-color-${toggleTheme}`)}>
+          <p className={cn("font-bold text-6xl text-right overflow-scroll", `font-color-${toggleTheme}`)}>
             { !operand2 ? 
               numberWithCommas(operand1) : 
               numberWithCommas(operand2)

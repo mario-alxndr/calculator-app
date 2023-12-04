@@ -152,7 +152,7 @@ const CalculatorPage = () => {
         </div>
       </div>
 
-      <footer className={"absolute bg-white w-full bottom-0"}>
+      <footer className={"block bg-white w-full"}>
         <p className={"text-xs"}>
           Challenge by <a className={"text-blue-700"} href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
           Coded by <a className={"text-blue-700"} href="https://github.com/mario-alxndr">mario-alxndr</a>.
